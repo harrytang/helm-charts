@@ -2,7 +2,7 @@
 
 # PGP signing
 sign: true
-key: 73E71BDD71F27354
+key: me@harrytang.xyz
 
 # Enable automatic generation of release notes using GitHubs release notes generator.
 # see: https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes
