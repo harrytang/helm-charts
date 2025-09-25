@@ -34,7 +34,8 @@ jobs:
           git config commit.gpgsign true
 
       - name: Export GPG key to legacy format
-        run: gpg --export-secret-keys > ~/.gnupg/pubring.gpg
+        run: |
+          echo "${{ secrets.GPG_KEY_PASSPHRASE }}" | gpg --batch --yes --passphrase-fd 0 --pinentry-mode loopback --export-secret-keys > ~/.gnupg/pubring.gpg
 
       - name: Install Helm
         uses: azure/setup-helm@v3
