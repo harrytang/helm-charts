@@ -1,6 +1,7 @@
 apiVersion: v2
 name: whoami
 description: Helm chart for whoami - A tiny Go webserver that prints OS information and HTTP request to output
+icon: https://raw.githubusercontent.com/harrytang/helm-charts/refs/heads/main/charts/whoami/icon.svg
 
 # A chart can be either an 'application' or a 'library' chart.
 #
