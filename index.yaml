@@ -3,6 +3,18 @@ entries:
   whoami:
   - apiVersion: v2
     appVersion: v1.11.0
+    created: "2026-05-12T06:36:10.673290053Z"
+    description: Helm chart for whoami - A tiny Go webserver that prints OS information
+      and HTTP request to output
+    digest: 808908eb462bd18b517ad1e194ddc6ca58a87423499917b727558a097428742c
+    icon: https://raw.githubusercontent.com/harrytang/helm-charts/refs/heads/main/charts/whoami/icon.svg
+    name: whoami
+    type: application
+    urls:
+    - https://github.com/harrytang/helm-charts/releases/download/whoami-0.2.0/whoami-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: v1.11.0
     created: "2025-09-25T12:36:33.809457779Z"
     description: Helm chart for whoami - A tiny Go webserver that prints OS information
       and HTTP request to output
@@ -35,4 +47,4 @@ entries:
     urls:
     - https://github.com/harrytang/helm-charts/releases/download/whoami-0.1.0/whoami-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-25T12:36:33.809475733Z"
+generated: "2026-05-12T06:36:10.673305221Z"
