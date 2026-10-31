@@ -3,7 +3,6 @@
   "additionalProperties": false,
   "properties": {
     "affinity": {
-      "additionalProperties": false,
       "required": [],
       "title": "affinity",
       "type": "object"
@@ -301,7 +300,6 @@
       "description": "This block is for setting up the ingress for more information can be found here: https://kubernetes.io/docs/concepts/services-networking/ingress/",
       "properties": {
         "annotations": {
-          "additionalProperties": false,
           "required": [],
           "title": "annotations",
           "type": "object"
@@ -438,27 +436,23 @@
       "type": "string"
     },
     "nodeSelector": {
-      "additionalProperties": false,
       "required": [],
       "title": "nodeSelector",
       "type": "object"
     },
     "podAnnotations": {
-      "additionalProperties": false,
       "description": "This is for setting Kubernetes Annotations to a Pod.\nFor more information checkout: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/",
       "required": [],
       "title": "podAnnotations",
       "type": "object"
     },
     "podLabels": {
-      "additionalProperties": false,
       "description": "This is for setting Kubernetes Labels to a Pod.\nFor more information checkout: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/",
       "required": [],
       "title": "podLabels",
       "type": "object"
     },
     "podSecurityContext": {
-      "additionalProperties": false,
       "required": [],
       "title": "podSecurityContext",
       "type": "object"
@@ -504,13 +498,11 @@
       "type": "integer"
     },
     "resources": {
-      "additionalProperties": false,
       "required": [],
       "title": "resources",
       "type": "object"
     },
     "securityContext": {
-      "additionalProperties": false,
       "required": [],
       "title": "securityContext",
       "type": "object"
